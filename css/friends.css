@@ -17,3 +17,12 @@ header img{
 	background-color: black;
 	border-radius: 150px;
 }
+
+  hr {
+        position: relative;
+        top: 20px;
+        border: none;
+        height: 5px;
+        background: black;
+        margin-bottom: 50px;
+    }
