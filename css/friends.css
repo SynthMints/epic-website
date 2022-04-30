@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: blanchedalmond;
+	text-align: center;
+}
+
+header h1{
+	color: black;
+
+}
+
+header img{
+	margin: 0;
+	background-color: black;
+	border-radius: 150px;
+}
