@@ -16,13 +16,29 @@ header img{
 	margin: 0;
 	background-color: black;
 	border-radius: 150px;
+
 }
 
-  hr {
-        position: relative;
-        top: 20px;
-        border: none;
-        height: 5px;
-        background: black;
-        margin-bottom: 50px;
-    }
+main h2 {
+
+	text-align: center;
+
+}
+
+main .smash{
+
+	border-radius: 300px;
+	width: 300px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+main .bobby{
+	background-color: blue;
+	height: 450px;
+	width: 500;
+
+}
+
