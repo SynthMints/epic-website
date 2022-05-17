@@ -35,12 +35,18 @@ h1 {
 }
 
 .sans {
+	width: 300px;
+  height: 300px;
+  transition: width 4s, height 2s, opacity 2s;
+	border: 0px solid goldenrod;
   opacity: 0.5;
 }
 
 .sans:hover {
   border: 5px solid goldenrod;
   opacity: 1.0;
+  width: 400px;
+  height: 400px;
 }
 
 ul{
@@ -50,7 +56,7 @@ ul{
 
 figure{
 
-	font-size: 15px;
+	font-size: 12px;
 }
 
 body{
