@@ -39,3 +39,14 @@ p {
 .sans {
   border: 5px solid goldenrod;
 }
+
+ul{
+
+		color:white;
+}
+
+figure{
+
+	color: white;
+	font-size: 15px;
+}
