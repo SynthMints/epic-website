@@ -1,0 +1,41 @@
+body{
+
+	background-color: black;
+}
+
+
+h1 {
+
+	font-size: 20px;
+	color:white;
+	background-color:dodgerblue;"
+
+}
+
+
+.bob{
+
+	text-align: center;
+
+	font-size: 40px;
+
+	font-family: sans;
+
+}
+
+@font-face {
+
+	font-family: myfont;
+  src: url(home/desktop/fonts/Mabook-0WYBX.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+p {
+	font-family: myfont;
+	font-weight: 100;
+}
+
+.sans {
+  border: 5px solid goldenrod;
+}
