@@ -35,7 +35,12 @@ h1 {
 }
 
 .sans {
+  opacity: 0.5;
+}
+
+.sans:hover {
   border: 5px solid goldenrod;
+  opacity: 1.0;
 }
 
 ul{
@@ -49,6 +54,4 @@ figure{
 }
 
 body{
-    background-image: url('https://imgs.search.brave.com/LQAMSQK6PYfJPl6BMz0pLjklwuFG-UzzYtOPKSj8lbQ/rs:fit:310:174:1/g:ce/aHR0cHM6Ly9naWZp/bWFnZS5uZXQvd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMTEv/Z2lmLXR1bWJsci1i/YWNrZ3JvdW5kcy03/LmdpZg.gif');
-    background-size: cover;
-}
+    background-color: black;
