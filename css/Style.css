@@ -7,8 +7,6 @@ h1 {
 
 }
 
-
-
 .bob{
 
 	text-align: center;
@@ -18,7 +16,6 @@ h1 {
 	font-family: sans;
 
 }
-
 
 @font-face {
     font-family: 'mabookregular';
@@ -50,10 +47,7 @@ h1 {
   height: 400px;
 }
 
-ul{
 
-		color:white;
-}
 
 figure{
 
@@ -85,3 +79,16 @@ footer .end:visited {
 footer .end:hover {
 	color: red;
 }
+
+
+.column {
+    float: left;
+    width:50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
