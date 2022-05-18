@@ -61,3 +61,26 @@ figure{
 
 body{
     background-color: black;
+
+}
+
+footer{
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: mabookregular;
+}
+
+footer .end:link {
+
+	color: black;
+}
+
+footer .end:visited {
+
+	color: black;
+}
+
+footer .end:hover {
+	color: red;
+}
