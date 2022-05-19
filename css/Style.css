@@ -1,4 +1,13 @@
 
+body{
+
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
 h1 {
 
 	font-size: 20px;
@@ -43,8 +52,7 @@ h1 {
 .sans:hover {
   border: 5px solid goldenrod;
   opacity: 1.0;
-  width: 400px;
-  height: 400px;
+  width: 100%;
 }
 
 
@@ -80,11 +88,13 @@ footer .end:hover {
 	color: red;
 }
 
+.row{
+
+}
 
 .column {
     float: left;
     width: 25%;
-    background-color: black;
 }
 
 .row:after {
@@ -97,4 +107,23 @@ footer .end:hover {
 	background-color: dodgerblue;
 
 	text-align: center;
+}
+
+div{
+
+	color: white;
+}
+
+.gr33n{
+
+	background-color: green;
+	text-align: center;
+	font-family: mabookregular;
+
+}
+
+
+.imgs{
+	width: 400px;
+	height: 400px;
 }
