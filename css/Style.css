@@ -83,7 +83,8 @@ footer .end:hover {
 
 .column {
     float: left;
-    width:50%;
+    width: 25%;
+    background-color: black;
 }
 
 .row:after {
@@ -92,3 +93,8 @@ footer .end:hover {
   clear: both;
 }
 
+.top{
+	background-color: dodgerblue;
+
+	text-align: center;
+}
