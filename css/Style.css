@@ -8,28 +8,29 @@ background: linear-gradient(to bottom, #240b36, #c31432);
 }
 
 
-h1 {
-
-	font-size: 20px;
-	color:white;
-	background-color:dodgerblue;"
-
-}
-
-.bob{
-
-	text-align: center;
-
-	font-size: 40px;
-
-	font-family: sans;
-
-}
-
 @font-face {
     font-family: 'mabookregular';
     src: url('../website 2/fonts/mabook-0wybx-webfont.woff2') format('woff2'),
          url('../website 2/fonts/mabook-0wybx-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'beat';
+    src: url('../website 2/fonts/beatworddemo-nrl20-webfont.woff2') format('woff2'),
+         url('../website 2/fonts/beatworddemo-nrl20-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merry';
+    src: url('../website 2/fonts/merrychristmas2021-owol4-webfont.woff2') format('woff2'),
+         url('../website 2/fonts/merrychristmas2021-owol4-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -105,10 +106,23 @@ footer .end:hover {
   clear: both;
 }
 
-.top{
-	background-color: dodgerblue;
 
-	text-align: center;
+.bob{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.top{
+  padding: 150px;
+  background: #1abc9c;
+  transition-duration: 1s;
+  scroll-behavior: filter: blur(1.5rem);
+}
+
+.top:hover{
+	filter: blur(1.5rem);
 }
 
 div{
@@ -133,3 +147,28 @@ div{
 li{
 			font-weight: bold;
 		}
+
+.bob{
+	font-family: merry;
+}
+
+.header{
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: mabookregular;
+}
+
+div .header:link {
+
+	color: black;
+}
+
+div .header:visited {
+
+	color: black;
+}
+
+div .header:hover {
+	color: red;
+}
