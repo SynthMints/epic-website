@@ -1,10 +1,8 @@
 
 body{
-
 background: #c31432;
 background: -webkit-linear-gradient(to bottom, #240b36, #c31432); 
 background: linear-gradient(to bottom, #240b36, #c31432);
-
 }
 
 
@@ -65,10 +63,6 @@ figure{
 
 }
 
-body{
-    background-color: black;
-
-}
 
 footer{
 	background-color: white;
@@ -116,7 +110,6 @@ footer .end:hover {
 
 .top{
   padding: 150px;
-  background: #1abc9c;
   transition-duration: 1s;
   scroll-behavior: filter: blur(1.5rem);
 }
@@ -171,4 +164,14 @@ div .header:visited {
 
 div .header:hover {
 	color: red;
+}
+
+.middle{
+
+  padding: 150px;
+  transition-duration: 1s;
+}
+
+.page{
+	background-color: black;
 }
