@@ -1,8 +1,9 @@
 
 body{
-background: #c31432;
-background: -webkit-linear-gradient(to bottom, #240b36, #c31432); 
-background: linear-gradient(to bottom, #240b36, #c31432);
+	background: #c31432;
+	background: -webkit-linear-gradient(to bottom, #240b36, #c31432); 
+	background: linear-gradient(to bottom, #240b36, #c31432);
+	margin: 0;
 }
 
 
@@ -138,8 +139,8 @@ div{
 }
 
 li{
-			font-weight: bold;
-		}
+	font-weight: bold;
+}
 
 .bob{
 	font-family: merry;
@@ -174,4 +175,26 @@ div .header:hover {
 
 .page{
 	background-color: black;
+}
+
+.navigation {
+	background-color: black;
+	overflow: hidden;
+	font-family: mabookregular;
+	text-decoration: none;
+}
+
+.navigation a {
+	float: right;
+	color: whitesmoke;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color: black;
+	background-color: #e2e2e2;
+	text-decoration: none;
 }
