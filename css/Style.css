@@ -193,8 +193,117 @@ div .header:hover {
 	text-decoration: none;
 }
 
+
+.dropdown{
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .drop{
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navigation a:hover, .dropdown:hover .drop{
+	background: whitesmoke;
+	color: black;
+}
+
+.content{
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: right;
+}
+
+.content a:hover{
+	background-color: black;
+}
+
+.dropdown:hover .content{
+	display: block;
+}.navigation {
+	background-color: black;
+	overflow: hidden;
+	font-family: mabookregular;
+	text-decoration: none;
+}
+
+.navigation a {
+	float: right;
+	color: whitesmoke;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
 .navigation a:hover{
 	color: black;
 	background-color: #e2e2e2;
 	text-decoration: none;
+}
+
+.dropdown{
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .drop{
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navigation a:hover, .dropdown:hover .drop{
+	background: whitesmoke;
+	color: black;
+}
+
+.drop-content{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px(0,0,0,0.2);
+	z-index: 1;
+}
+
+.drop-content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: right;
+}
+
+.drop-content a:hover{
+	background-color: black;
+}
+
+.dropdown:hover .content{
+	display: block;
 }
