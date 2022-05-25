@@ -46,6 +46,9 @@ body{
   transition: width 4s, height 2s, opacity 2s;
 	border: 0px solid goldenrod;
   opacity: 0.5;
+  		display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .sans:hover {
@@ -60,6 +63,7 @@ figure{
 
 	font-size: 12px;
 	color: white;"
+
 
 }
 
@@ -129,12 +133,14 @@ div{
 	text-align: center;
 	font-family: mabookregular;
 
+
 }
 
 
 .men{
 	width: 400px;
 	height: 400px;
+
 }
 
 li{
@@ -307,73 +313,18 @@ div .header:hover {
 	display: block;
 }
 
-.slideshow-container{
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
+.slideshow{
+	background-color: black;
+	padding: 20px 20px;
 }
 
 .mySlides{
-	display: none;
-}
-
-.prev, .next{
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: whitesmoke;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6 ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-}
-
-.next{
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover{
-	background-color: black;
-}
-
-.text{
-	color: whitesmoke;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
-
-.dot{
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: black;
-	border-radius: 50%;
-	display: inline-block;
-	transition: backround-color 0.6s ease;
-}
-
-.active, .dot:hover{
-	background-color: whitesmoke;
-}
-
-.fade{
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@keyframes fade{
-	from{opacity: .4;}
-	to {opacity: 1;}
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
+.john{
+	size: 40px;
+}

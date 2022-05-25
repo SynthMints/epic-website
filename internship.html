@@ -5,6 +5,30 @@
  <script src="java.js"></script> 
 
 <style>
+.mySlides {display:none;}
+</style>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<style>
 	
 
 	html{
@@ -36,9 +60,10 @@
 	
 		<div class="content">
 
-			<a href="#blog1">blog1</a>
-			<a href="#blog2">blog2</a>
-			<a href="#blog3">blog3</a>
+			<a href="#blog1">Blog1</a>
+			<a href="#blog2">Blog2</a>
+			<a href="#blog3">Blog3</a>
+			<a href="#photo">Photo Essay</a>
 		</div>
 	</div>
 </div>
@@ -65,25 +90,8 @@
 
 	</figure>
 
-<div class="slideshow-container">
-			<div class="mySlides fade">
-				<img src="https://i.ibb.co/wC39TRZ/20220524-141938.jpg" alt="me and dogs" style="width:100%">
-				<div class="text">thank yous and dogs</div>
-			</div>
-		</div>
 
-		<div class="slideshow">
-			<div class="mySlides fade">
-				<img src="https://i.ibb.co/VpBc2jj/dogs.jpg" alt="dogs" style="width:100%">
-				<div class="text">thank yous and dogs</div>
-			</div>
-		</div>
 
-	<a class="prev" onclick="plusSlides(-1)"&#10094;></a>
-	<a class="next" onclick="plusSlides(1)"&#10095;></a>
-</div>
-
-<br>
 
 <div style="text-align: center;">
 	<span class="dot" onclick="currentslide(1)"></span>
@@ -194,6 +202,29 @@
 
 	</div>
 
+</div>
+
+	<div class="photos" id="photo">
+
+		<h1 class="bob">Photo Essay</h1> 
+
+	</div>
+
+<div class="slideshow" id="photo">
+	<img class="mySlides" src="img/intern/work.jpg" alt="silly image" height="500px" width="500px"><p style="text-align: center;">After somone adopts an animal from RCHS a year after there adoption they are greeted with a nice letter in the mail. This comes with a photo of their pet before they were taken. I helped put them together this year!</p>
+
+	<img class="mySlides" src="img/intern/food.jpg" alt="silly image" height="500px" width="500px"><p style="text-align: center;">Rancho Costal Humane Society was preparing for a mass food giveaway that I asisted in on saturday.</p>
+
+	<img class="mySlides" src="img/intern/me.jpg" alt="silly image" height="500px" width="500px"><p style="text-align: center;">Taking thank you photos for people who have donated to us</p>
+
+	<img class="mySlides" src="img/intern/transit.jpg" alt="silly image" height="500px" width="500px"><p style="text-align: center;">This is the first time ive ever taken public transit, its been a pretty cool expiriance!</p>
+
+	<img class="mySlides" src="img/intern/complete.png" alt="silly image" height="500px" width="500px"><p style="text-align: center;">I took an online course so that I could gain expiriance with animals as well as helping out the shelter</p>
+
+
+  <button class="john" onclick="plusDivs(-1)">&#10094;</button> <p>DO NOT PRESS THESE, THEY ARE MALFUNCTIONING</p>
+  <button class="john" onclick="plusDivs(1)">&#10095;</button>
+</div>
 
 
 </body>
