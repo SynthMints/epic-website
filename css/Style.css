@@ -190,6 +190,12 @@ div .header:hover {
 	overflow: hidden;
 	font-family: mabookregular;
 	text-decoration: none;
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.navigation:hover{
+	opacity: 1.0;
 }
 
 .navigation a {
