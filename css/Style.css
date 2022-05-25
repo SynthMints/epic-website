@@ -327,6 +327,11 @@ div .header:hover {
 	margin-right: auto;
 }
 
+img .mySlides{
+	    		display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .john{
 	size: 40px;
